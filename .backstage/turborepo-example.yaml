@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: turborepo-example
+  description: null
+  annotations:
+    github.com/project-slug: pats/turborepo-example
+  tags:
+    - frontend
+spec:
+  owner: pats
