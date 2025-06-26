@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ui
+  annotations:
+    github.com/project-slug: pats/turborepo-example
+  tags:
+    - library
+    - nodejs
+    - frontend
+    - codesnoop
+spec:
+  type: library
+  owner: pats
+  lifecycle: production
+  system: turborepo-example
