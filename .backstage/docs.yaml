@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: docs
+  annotations:
+    github.com/project-slug: pats/turborepo-example
+  tags:
+    - website
+    - codesnoop
+spec:
+  type: website
+  lifecycle: production
+  system: turborepo-example
